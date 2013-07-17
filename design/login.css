@@ -11,7 +11,7 @@ html > body.login > section > form > fieldset {
 	position: relative;
 	display: block;
 	width: 365px;
-	height: -webkit-calc(557px - 195px);
+	height: 362px; /* Safari */
 	height: calc(557px - 195px);
 	margin: 0 auto;
 	padding-top: 195px;
@@ -20,9 +20,9 @@ html > body.login > section > form > fieldset {
 
 html > body.login > section > form > fieldset > legend {
 	position: absolute;
-	left: -webkit-calc((365px / 2) - (209px / 2));
+	left: 78px; /* Safari */
 	left: calc((365px / 2) - (209px / 2));
-	top: -webkit-calc((195px / 2) - (129px / 2));
+	top: 33px; /* Safari */
 	top: calc((195px / 2) - (129px / 2));
 	display: block;
 	width: 209px;
@@ -63,9 +63,9 @@ html > body.login > section > form > fieldset > label:not(:last-of-type) > span 
 
 html > body.login > section > form > fieldset > label > input:not([type="checkbox"]) {
 	display: block;
-	width: -webkit-calc(280px - (12px * 2));
+	width: 256px; /* Safari */
 	width: calc(280px - (12px * 2));
-	height: -webkit-calc(48px - (12px * 2));
+	height: 24px; /* Safari */
 	height: calc(48px - (12px * 2));
 	margin: 0 auto;
 	padding: 12px;
@@ -96,7 +96,7 @@ html > body.login > section > form > fieldset > label > input[type="checkbox"] +
 html > body.login > section > form > fieldset > button {
 	width: 108px;
 	height: 36px;
-	margin-left: -webkit-calc((365px - 280px) / 2);
+	margin-left: 43px; /* Safari */
 	margin-left: calc((365px - 280px) / 2);
 	margin-top: 20px;
 	padding: 0;
