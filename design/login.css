@@ -87,7 +87,7 @@ html > body.login > section > form > fieldset > label > input[type="checkbox"] +
 	vertical-align: top;
 	height: 24px;
 	padding-left: 24px;
-	background-image: url('html/body/section/form/fieldset/label/input_type=checkbox/span.png');
+	background-image: url('html/body.login/section/form/fieldset/label/input_type=checkbox/span.png');
 	background-position: left center;
 	background-repeat: no-repeat;
 	line-height: 24px;
