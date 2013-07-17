@@ -1,0 +1,88 @@
+input, button {
+	font-family: inherit;
+	font-size: inherit;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+input[type="checkbox"] + span,
+button {
+	cursor: pointer;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+html {
+	background-image: url('html.png');
+	font-family: 'Lucida Sans', 'Bitstream Vera Sans', sans-serif;
+}
+
+html > body > section {
+	min-height: 90vh;
+	margin: 0;
+	padding: 0;
+	background-image: url('html/body/section.png');
+	background-size: 100%;
+}
+
+html > body > footer {
+	height: 62px;
+	margin-bottom: 0;
+	padding-left: 28px;
+	padding-right: 28px;
+	background-image: url('html/body/footer.png');
+	font-size: 11px;
+	line-height: 62px;
+	color: rgb(103,103,103);
+}
+
+html > body > footer > address,
+html > body > footer > p,
+html > body > footer > nav,
+html > body > footer > nav > ul,
+html > body > footer > nav > ul > li {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+html > body > footer > p:before {
+	content: '/';
+}
+
+html > body > footer > nav {
+	float: right;
+}
+
+html > body > footer > nav > ul > li {
+	width: 32px;
+	height: 32px;
+	margin-left: 10px;
+}
+
+html > body > footer > nav > ul > li.skype {
+	background-image: url('html/body/footer/nav/ul/li.skype.png');
+}
+
+html > body > footer > nav > ul > li.email {
+	background-image: url('html/body/footer/nav/ul/li.email.png');
+}
+
+html > body > footer > nav > ul > li > a {
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+
+html > body > footer > nav > ul > li > a > span {
+	display: none;
+}
