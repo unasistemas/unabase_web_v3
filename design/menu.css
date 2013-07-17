@@ -2,7 +2,128 @@
 @import url('screen.css');
 @import url('print.css');
 
-html > body.menu > nav {
-	
+html > body.menu > header {
+	position: absolute;
+	left: calc(205px + 32px);
+	top: 0;
+	width: calc(100% - 205px - 32px);
 }
 
+html > body.menu > header > p {
+	display: inline-block;
+	font-size: 14px;
+	color: white;
+}
+
+html > body.menu > header > p:last-of-type {
+	float: right;
+	width: 83px;
+	height: 82px;
+	vertical-align: top;
+	background-image: url('html/body.menu/header/p_last-of-type.png');
+	font-size: 13px;
+}
+
+html > body.menu > header > p:last-of-type > a {
+	display: inline-block;
+	height: 13px;
+	margin-left: 25px;
+	margin-top: 5px;
+	padding-left: 16px;
+	background-image: url('html/body.menu/header/p_last-of-type/a.png');
+	background-repeat: no-repeat;
+	line-height: 16px;
+}
+
+html > body.menu > header > p > span:last-of-type {
+	display: inline-block;
+	width: 41px;
+	height: 24px;
+	background-image: url('html/body.menu/header/p/span_last-of-type.png');
+	line-height: 20px;
+	text-indent: 3px;
+	text-align: center;
+}
+
+html > body.menu > nav {
+	display: inline-block;
+	width: 205px;
+	height: 664px;
+	margin-left: 32px;
+	background-image: url('html/body.menu/nav.png');
+	vertical-align: top;
+}
+
+html > body.menu > nav > h1 {
+	width: 141px;
+	height: 86px;
+	margin: 17px auto 34px auto;
+	background-image: url('html/body.menu/nav/h1.png');
+}
+
+html > body.menu > nav > h1 > span {
+	display: none;
+}
+
+html > body.menu > nav > img,
+html > body.menu > nav > h2 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+html > body.menu > nav > img {
+	margin-left: 20px;
+}
+
+html > body.menu > nav > h2 {
+	width: 120px;
+	font-size: 16px;
+}
+html > body.menu > nav > a {
+	display: block;
+	width: 16px;
+	height: 16px;
+	margin-left: 180px;
+	margin-top: -5px;
+	background-image: url('html/body.menu/nav/a.png');
+}
+
+html > body.menu > nav > a > span {
+	display: none;
+}
+
+html > body.menu > nav > ul {
+	width: 200px;
+	margin-top: 15px;
+	font-size: 13px;
+	color: rgb(207,207,207);
+}
+
+html > body.menu > nav > ul > li {
+	width: calc(200px - 24px);
+	height: 24px;
+	padding-left: 24px;
+	line-height: 24px;
+}
+
+html > body.menu > nav > ul > li.active,
+html > body.menu > nav > ul > li:hover {
+	background-image: url('html/body.menu/nav/ul/li.active.png');
+	color: white;
+}
+
+html > body.menu > nav > ul > li > a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+html > body.menu > nav > ul > li > a:hover {
+	text-decoration: none;
+}
+
+html > body.menu > section {
+	display: inline-block;
+	width: calc(100% - 205px - 32px - 5px);
+	vertical-align: top;
+}

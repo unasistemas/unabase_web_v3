@@ -27,12 +27,16 @@ html {
 	font-family: 'Lucida Sans', 'Bitstream Vera Sans', sans-serif;
 }
 
+html > body {
+	background-image: url('html/body.png');
+	background-position: center center;
+	background-size: cover;
+}
+
 html > body > section {
 	min-height: 90vh;
 	margin: 0;
 	padding: 0;
-	background-image: url('html/body/section.png');
-	background-size: 100%;
 }
 
 html > body > footer {
