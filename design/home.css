@@ -1,0 +1,30 @@
+@import url('menu.css');
+
+html > body.home > section > img,
+html > body.home > section > h1 {
+	display: inline-block;
+	margin-top: 200px;
+	vertical-align: top;
+}
+
+html > body.home > section > img {
+	float: left;
+	margin-left: 100px;
+}
+
+html > body.home > section > h1,
+html > body.home > section > p {
+	display: inline-block;
+	width: 420px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	color: rgb(103,103,103);
+}
+
+html > body.home > section > h1 {
+	font-size: 40px;
+}
+
+html > body.home > section > p {
+	font-size: 14px;
+}

@@ -13,6 +13,10 @@ button {
 	cursor: pointer;
 }
 
+[draggable] {
+	user-select: none;
+}
+
 a {
 	color: inherit;
 	text-decoration: none;
