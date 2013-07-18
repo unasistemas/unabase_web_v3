@@ -4,8 +4,10 @@
 
 html > body.menu > header {
 	position: absolute;
+	left: 237px; /* Safari */
 	left: calc(205px + 32px);
 	top: 0;
+	width: 82.5%; /* Safari */
 	width: calc(100% - 205px - 32px);
 }
 
@@ -116,6 +118,7 @@ html > body.menu > nav > ul {
 }
 
 html > body.menu > nav > ul > li {
+	width: 176px; /* Safari */
 	width: calc(200px - 24px);
 	height: 24px;
 	padding-left: 24px;
@@ -141,7 +144,9 @@ html > body.menu > nav > ul > li > a:hover {
 html > body.menu > section {
 	position: relative;
 	display: inline-block;
+	width: 80%; /* Safari */
 	width: calc(100% - 205px - 32px - 5px);
+	min-height: 664px;
 	vertical-align: top;
 }
 
@@ -153,7 +158,9 @@ html > body.menu > section > div.widgets {
 
 html > body.menu > section > div.widgets > article {
 	display: inline-block;
+	width: 155px; /* Safari */
 	width: calc(178px - 13px - 10px);
+	height: 113px; /* Safari */
 	height: calc(128px - 5px - 10px);
 	padding: 5px 13px 10px 10px;
 	background-image: url('html/body.menu/section/div.widgets/article.png');
